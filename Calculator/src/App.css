@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.App{
+  background-color: #4add8c;
+  color: #ffffff;
+  min-width: 400px;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.App-header{
+  padding: 10px;
+}
+h1,h2{
+  padding: 30px;
+}
+button,input{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+button:hover{
+  color:#fff;
+  background-color: #e618cb;
+
+}
